@@ -17,8 +17,8 @@ let carsCopmany = [
   "Nissan",
   "Toyota",
 ];
-///////////////////////// includes ////////////////////
-
+/////////////////////////    includes   ////////////////////
+ 
 let Honda = carsCopmany.includes("Honda"); //true
 
 console.log("Honda is cars company?", Honda);
@@ -26,7 +26,7 @@ console.log("Honda is cars company?", Honda);
 //
 //
 //
-////////////////////////indexOf///////////////////
+////////////////////////    indexOf    ///////////////////
 //
 
 let Ford = carsCopmany.indexOf("Ford"); //// 6
@@ -36,7 +36,7 @@ let saipa = carsCopmany.indexOf("saipa"); /////// -1  = not exist
 //
 //
 //
-////////////////////slice/////////////////////
+////////////////////   slice   /////////////////////
 let japanCarscompany = carsCopmany.slice(8, 11);
 
 console.log(japanCarscompany); ////////// [ "Honda","Nissan","Toyota"]
@@ -47,19 +47,14 @@ console.log(japanCarscompany); ////////// [ "Honda","Nissan","Toyota"]
 //
 //
 //
-///////////////////////sort//////////////////////////
+///////////////////////   sort  //////////////////////////
 
 let sortByname = carsCopmany.sort(); //// sort by name
 
 let sortBylength = carsCopmany.sort((a, b) => a.length - b.length); ///sort by length
 
-//
-//
-//
-//
-//
-//
-///////if we have Number
+
+//     if we have Number
 
 let number = [1, 5, 9, 7, 4, 10, 6, 2, 3];
 
