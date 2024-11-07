@@ -1,1 +1,1 @@
-# basic-js-homework
+# Student Assignments
